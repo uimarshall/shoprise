@@ -34,7 +34,7 @@ class _LoginPageState extends State<LoginPage> {
                   textEditingController: emailTextEditingController,
                   iconData: Icons.email,
                   hintText: "Email",
-                  isObsecre: false,
+                  isObscure: false,
                   enabled: true,
                 ),
 
@@ -43,7 +43,7 @@ class _LoginPageState extends State<LoginPage> {
                   textEditingController: passwordTextEditingController,
                   iconData: Icons.lock,
                   hintText: "Password",
-                  isObsecre: true,
+                  isObscure: true,
                   enabled: true,
                 ),
 
