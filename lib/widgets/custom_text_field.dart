@@ -4,7 +4,7 @@ class CustomTextField extends StatefulWidget {
   TextEditingController? textEditingController;
   IconData? iconData;
   String? hintText;
-  bool? isObsecre = true;
+  bool? isObscure = true;
   bool? enabled = true;
 
   CustomTextField({
@@ -12,7 +12,7 @@ class CustomTextField extends StatefulWidget {
     this.textEditingController,
     this.iconData,
     this.hintText,
-    this.isObsecre,
+    this.isObscure,
     this.enabled,
   });
 
@@ -33,7 +33,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
       child: TextFormField(
         enabled: widget.enabled,
         controller: widget.textEditingController,
-        obscureText: widget.isObsecre!,
+        obscureText: widget.isObscure!,
         cursorColor: Theme.of(context).primaryColor,
         decoration: InputDecoration(
           border: InputBorder.none,
