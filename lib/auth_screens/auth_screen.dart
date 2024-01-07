@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shoprise/auth_screens/login_page.dart';
-import 'package:shoprise/auth_screens/sign_in_page.dart';
+import 'package:shoprise/auth_screens/sign_up_page.dart';
 
 class AuthScreen extends StatefulWidget {
   const AuthScreen({Key? key}) : super(key: key);
@@ -72,7 +72,7 @@ class _AuthScreenState extends State<AuthScreen> {
             tileMode: TileMode.clamp,
           )),
           child: const TabBarView(
-            children: [LoginPage(), SignInPage()],
+            children: [LoginPage(), SignUpPage()],
           ),
         ),
       ),
